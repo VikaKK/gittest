@@ -1,0 +1,58 @@
+.tabs__nav{
+font-family: 'Open Sans';
+font-size: 14px;
+text-transform: uppercase;
+}
+
+.nav__link{
+align-items: center;
+margin: 0px 10px;
+color: black;
+text-decoration: none;
+
+}
+
+.tabs__content-box{
+position: absolute;
+width: 1170px;
+height: 501px;
+left: 170px;
+border: 1px solid #C6CBCD;
+box-sizing: border-box;
+}
+
+.tabs__title{
+font-family: 'Open Sans';
+font-size: 30px;
+width: 670px;
+text-align: center;
+}
+
+.tabs__subtitle{
+font-family: 'Raleway';
+font-size: 18px;
+font-weight: 400;
+width: 670px;
+text-align: center;
+}
+
+.tabs__image{
+position: absolute;
+width: 470px;
+left: 870px;
+}
+
+.tabs__btn{
+height: 58px;
+width: 270px;
+background: #EC7979;     
+position: absolute; 
+}
+
+.tabs__btn{
+font-family: 'Open Sans';
+font-size: 18px;
+text-align: center;
+color: #FFFFFF;
+font-weight: 600;
+}
