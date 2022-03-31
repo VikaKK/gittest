@@ -1,0 +1,22 @@
+.section__about-title{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    }
+
+.section__about-seperatior{
+border: 1px solid #EC7979;
+width: 170px;
+}
+
+.section__about-subtitle{
+font-family: 'Raleway', sans-serif;
+font-weight: normal;
+font-size: 18px;
+text-align: center;
+border: #86878B;
+}
+
+.block__row{
+
+}

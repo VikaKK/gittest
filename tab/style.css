@@ -1,25 +1,37 @@
-.tabs__nav{
-font-family: 'Open Sans';
-font-size: 14px;
-text-transform: uppercase;
-}
-
-.nav__link{
-align-items: center;
-margin: 0px 10px;
-color: black;
-text-decoration: none;
-
+.tabs{
+margin: 0 auto;
+padding: 0 15px;
+max-width: 1170px;
 }
 
 .tabs__content-box{
-position: absolute;
-width: 1170px;
-height: 501px;
-left: 170px;
 border: 1px solid #C6CBCD;
 box-sizing: border-box;
 }
+
+.tabs>input[type="radio"]{
+display: none;
+}
+
+.tabs>label {
+display: inline-block;
+text-align: center;
+vertical-align: middle;
+user-select: none;
+background-color: none;
+border: 1px solid  #ebebeb;
+padding: 2px 8px;
+font-size: 14px;
+line-height: 19,07px;
+cursor: pointer;
+position: relative;
+top: 1px;
+}
+
+.tabs>input[type="radio"]:checked+label {
+    background-color: none;
+    border-bottom: 1px solid #fff;
+  }
 
 .tabs__title{
 font-family: 'Open Sans';
@@ -31,28 +43,33 @@ text-align: center;
 .tabs__subtitle{
 font-family: 'Raleway';
 font-size: 18px;
-font-weight: 400;
-width: 670px;
-text-align: center;
+max-width: 570px;
+position: absolute;
+margin-left: 80px;
 }
 
 .tabs__image{
-position: absolute;
 width: 470px;
-left: 870px;
+height: 500px;
+position: relative;
+left: 699px;
+top: -100px;
 }
 
-.tabs__btn{
-height: 58px;
+.tab__download-btn{
 width: 270px;
-background: #EC7979;     
-position: absolute; 
-}
-
-.tabs__btn{
+height: 58px;
+max-width: 570px;
+max-height: 570px;
+margin-left: 80px;
+background: #EC7979;
 font-family: 'Open Sans';
 font-size: 18px;
 text-align: center;
 color: #FFFFFF;
-font-weight: 600;
+cursor: pointer;
+position: absolute;
+right: 62%;
+top: 43%;
+bottom: 0%;
 }
