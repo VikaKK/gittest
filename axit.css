@@ -1,0 +1,228 @@
+body{
+    background-image: url(../project/img/imageaxit.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-image: linear-gradient(rgba(0, 0, 0, .5));
+}
+
+.section__container{
+    width: 1510px;
+    height: 1026px;
+    margin: auto;
+    padding: 0;
+}
+
+.section__header{
+    width: 1510px;
+    height: 75px;
+    background: #000000;
+    position: relative;
+    top: -10px;
+}
+
+.logo{
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    padding: 0;
+    margin: 0 auto;
+    position: relative;
+    left: 110px;
+    top: 20px;
+}
+
+.nav__link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+    margin: 30px;
+    position: relative;
+    top: -5px;
+    left: 750px;
+    width: 134px;
+    height: 100px;
+}
+
+.nav__link:active{
+    border: 25px solid #AB4949;
+    background-color: #AB4949;
+}
+
+.section__logo{
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 70px;
+    color: #fff;
+    margin-left: 170px;
+    margin-top: 225px;
+}
+
+.text{
+    color: #EC7979;
+}
+
+.section__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #fff;
+    text-transform: uppercase;
+    width: 670px;
+    height: 168px;
+    margin-left: 170px;
+    margin-top: 30px;
+}
+
+.section__seperation{
+    width: 170px;
+    border: 1px solid #FFFFFF;
+    margin-left: 170px;
+}
+
+.section__subtitle{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    margin-left: 170px;
+}
+
+.tab__download-btn{
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    cursor: pointer;
+    width: 270px;
+    height: 58px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    color: #fff;
+    margin-left: 170px;
+    margin-top: 42px;
+}
+
+.tab__download-btn:hover{
+    border: 2px solid #EC7979;
+    box-sizing: border-box;
+}
+
+.tab__download-btn:active{
+    border: 2px solid #AB4949;
+    box-sizing: border-box;
+}
+
+.section__free{
+    width: 470px;
+    height: 450px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    left: 870px;
+    top: -605px;
+}
+
+.form-btn{
+    background: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    width: 470px;
+    height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    top: 92px;
+}
+
+.form-btn:hover{
+    border: 1px solid #AB4949;;
+    box-sizing: border-box;
+}
+
+.form-btn:active{
+    background: #AB4949;
+    box-shadow: inset 0px 0px 10px #AB4949;
+}
+
+.section__text{
+    width: 367px;
+    height: 90px;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    position: relative;
+    left: 53px;
+    padding:  10px;
+}
+
+.colortext{
+    color: #EC7979;
+}
+
+.form__item{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+    margin: 30px;
+    position: relative;
+    left: 20px;
+}
+
+input{
+    border: none;
+}
+
+.section__line{
+    border: 1px solid #BDBDBD;
+    width: 370px;
+    margin: 1px;
+}
+
+/*social*/
+
+.section__social{
+    width: 1510px;
+    height: 140px;
+    background: #F8EFEF;
+    margin: auto;
+    position: relative;
+    top: -40px;
+}
+
+.block__title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 170px;
+}
+
+.block__subtitle{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #86878B;
+    margin-left: 170px;
+}
+
+.section__icon{
+    cursor: pointer;
+    height: 45px;
+    position: relative;
+    left: 390px;
+    top:-56px;
+    margin: 15px;
+}
