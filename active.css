@@ -1,0 +1,129 @@
+/*banner*/
+
+.section__banner{
+    max-width: 100%;
+    height: 930px;
+    background:  #252B49 url(../project/img-2/icon.png)  no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.section__logo{
+    position: relative;
+    left: 170px;
+    padding-top: 38.36px;
+}
+
+.nav__link{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 13px;
+    position: relative;
+    left: 850px;
+    top: -25px;
+    margin: 2%;
+}
+
+.nav__link:active{
+    color:#E71414;
+}
+
+.nav__link::after{
+    display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	content: "";
+	transition: width 0.3s ease-out;
+
+}
+
+.nav__link:hover:after,
+a:focus:after{
+	width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    background: #BABBC5;
+}
+
+.nav__link:active:after,
+a:focus:after{
+    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+    background: #E71414;
+    color: #E71414;
+}
+
+.section__line{
+    width: 1170px;
+    position: relative;
+    top: 30px;
+    padding-left: 170px;
+    padding-right: 170px;
+    border: 1px solid #BABBC5;
+}
+
+.section__title{
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 64px;
+    color: #fff;
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 130px;
+}
+
+.section__subtitle{
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 31,43px;
+}
+
+.tab__download-btn{
+    width: 369px;
+    height: 77.58px;
+    position: relative;
+    margin-left: 770px;
+    margin-top: 82px;
+    background: #FF4343;
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.tab__download-btn:hover{
+    background: #E71414;
+}
+
+.tab__download-btn:active{
+    background: #FF4343;
+    box-shadow: 4px 4px 30px #FF4343;
+}
+
+/*features*/
+
+.section__features{
+    margin: 0 auto;
+}
+
+.section__container{
+    width: 1170px;
+    height: 717px;
+}
+
+.section__menu{
+    display: flex;
+    justify-content: space-between;
+}
