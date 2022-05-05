@@ -10,10 +10,86 @@
     z-index: 1;
 }
 
-.section__logo{
+.header__menu{
+    max-width: 1170px;
+    padding: 0 15px;
+    height: 101px;
+    margin: 0 auto;
+    border-bottom: 1px solid #BABBC5 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__burger{
+    display: none;
+}
+
+.header__info{
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 75px;
+    text-align: center;
+    color: #fff;
+    margin-top: 130px;
+}
+
+.header__subtitle {
+    font-family: 'Raleway';
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    margin-top: 31px;
+}
+
+.header__button {
+    width: 369px;
+    display: block;
+    border: none;
+    font-family:'Raleway';
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    background: #FF4343;
+    padding: 26px 0;
+    margin: 82px auto 0 auto;
+}
+
+.header__button:hover {
+    background: #E71414;
+}
+
+.header__button:active {
+    background: #FF4343;
+    box-shadow: 4px 4px 30px 0px rgba(255, 67, 67, 1);
+}
+
+.menu__logo{
+    width: 120.44px;
     position: relative;
-    left: 170px;
-    padding-top: 38.36px;
+    z-index: 3;
+}
+
+.menu__logo-1{
+    width: 60.41px;
+    position: relative;
+    right: 140px;
+}
+
+.menu__list {
+    width: 670px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .nav__link{
@@ -24,25 +100,10 @@
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 13px;
-    position: relative;
-    left: 850px;
-    top: -25px;
-    margin: 2%;
 }
 
 .nav__link:active{
     color:#E71414;
-}
-
-.nav__link::after{
-    display: block;
-	position: absolute;
-	left: 0;
-	width: 0;
-	height: 2px;
-	content: "";
-	transition: width 0.3s ease-out;
-
 }
 
 .nav__link:hover:after,
@@ -56,63 +117,6 @@ a:focus:after{
     width: 100%;
     background: #E71414;
     color: #E71414;
-}
-
-.section__line{
-    width: 1170px;
-    position: relative;
-    top: 30px;
-    padding-left: 170px;
-    padding-right: 170px;
-    border: 1px solid #BABBC5;
-}
-
-.section__title{
-    font-family: 'Raleway';
-    font-weight: 900;
-    font-size: 64px;
-    color: #fff;
-    text-align: center;
-    padding-left: 170px;
-    padding-right: 170px;
-    padding-top: 130px;
-}
-
-.section__subtitle{
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-size: 24px;
-    color: #fff;
-    text-align: center;
-    padding-left: 170px;
-    padding-right: 170px;
-    padding-top: 31,43px;
-}
-
-.tab__download-btn{
-    display: block;
-    width: 369px;
-    margin: 0 auto;
-    cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 28px;
-    text-align: center;
-    color: #fff;
-    background-color: #FF4343;
-    padding: 25px 0;
-    margin-top: 85px;
-    border: none;
-}
-
-.tab__download-btn:hover{
-    background: #E71414;
-}
-
-.tab__download-btn:active{
-    background: #FF4343;
-    box-shadow: 4px 4px 30px #FF4343;
 }
 
 /*banner*/
@@ -268,6 +272,26 @@ a:focus:after{
     padding-left: 129px;
 }
 
+/*slider*/
+
+.slider__container{
+    padding-top: 34px;
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-pagination-bullet{
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border: 1px solid #7E5D6F;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet:hover{
+    background: #7E5D6F;
+}
+
 /*download*/
 
 .section__download{
@@ -390,39 +414,57 @@ span{
 }
 
 @media(max-width:1064px){
-.section__line{
-    width: 680px;
+.section__header{
+    height: 768px;
 }
 
 .header__menu{
-    padding: auto;
-}
-
-.section__header{
-    max-width: 1064px;
+    max-width: 1024px;
     padding: 0 20px;
 }
 
-.section__title{
-    font-size: 48px;
-    line-height: 56px;
-    margin-top: 118px;
-    padding-left: 20px;
-    padding-right: 20px;
+.header__info{
+    max-width: 1024px;
+    padding: 0 20px;
 }
 
-.section__subtitle{
+.header__title {
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 158px;
+}
+
+.header__subtitle{
     font-size: 18px;
     line-height: 21px;
     margin-top: 62px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
-.tab__download-btn{
+.header__button{
     width: 313px;
     padding: 24.7px 0;
     margin: 91.5px auto 0 auto;
+    border: none;
+    cursor: pointer;
+}
+
+.menu__logo{
+    width: 120.44px;
+}
+
+.menu__logo-1{
+    position: relative;
+    right: 105px;
+}
+
+.menu__list{
+    width: 566px;
+}
+
+.menu__link{
+    font-size: 12px;
+    line-height: 14px;
+    padding: 6.5px 0;
 }
 
 /*banner*/
@@ -528,6 +570,11 @@ span{
     padding-left: 100px;
 }
 
+/*slider*/
+.section__slider{
+    padding-top: 34px;
+}
+
 /*download*/
 .section__download{
     max-width: 1024px;
@@ -583,9 +630,119 @@ span{
 }
 
 @media (max-width: 768px){
+.section__header{
+    width: 320px;
+    height: 572px;
+    margin: 0 auto;
+}
+
+.header__menu{
+    height: 56px;
+}
+
+.menu__burger{
+    display: block;
+    width: 24px;
+    height: 18px;
+    position: relative;
+
+    cursor: pointer;
+}
+
+.menu__burger span{
+    background: #fff;
+    position: absolute;
+    width: 24px;
+    height: 3px;
+
+    top: 8px;
+}
+
+.menu__burger::before,
+.menu__burger::after{
+    content: '';
+    background: #fff;
+    position: absolute;
+    width: 24px;
+    height: 3px;
+
+}
+
+.menu__burger::before{
+    top: 0;
+}
+
+.menu__burger::after{
+    bottom: 0;
+}
+
+.menu__burger.active span {
+    transform: scale(0);
+}
+
+.menu__burger.active::before {
+    transform: rotate(45deg);
+    top: 8px
+}
+
+.menu__burger.active::after {
+    transform: rotate(-45deg);
+    bottom: 8px;
+}
+
+.header__title{
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 80px;
+}
+
+.header__subtitle{
+    font-size: 14px;
+    line-height: 16.44px;
+    margin-top: 33px;
+}
+
+.header__button{
+    width: 279px;
+    padding: 15px 0;
+    margin: 51px auto 0 auto;
+    cursor: pointer;
+}
+
+.menu__logo{
+    width: 67.78px;
+}
+
+.menu__logo-1{
+    width: 34px;
+    position: relative;
+    right: 70px;
+}
+
+.menu__list{
+    top: -100%;
+    display: block;
+    position: absolute;
+    margin-top: 84px;
+}
+
+.menu__list > nav{
+    padding: 24px 0;
+}
+
+.menu__list:active{
+    top: 0;
+}
+
+.nav__link{
+    font-size: 13px;
+    line-height: 15px;
+}
+
+/*review*/
 .section__review{
     max-width: 280px;
-    padding: 0 20px;
+    padding: 35px 20px;
 }
 
 .section__team{
@@ -614,15 +771,17 @@ span{
 
 .section__personal{
     height: 227px;
+    width: 280px;
 }
 
+/*banner*/
 .section__banner{
     padding: 0 20px;
     margin: 0 auto;
 }
 
 .section__container{
-    height: 1542px;
+    height: 1450px;
     margin: 57px 0;
     display: block;
 }
@@ -638,15 +797,15 @@ span{
     line-height: 16px;
 }
 
+/*image*/
 .section__image{
     max-width: 320px;
     height: 576px;
-    padding-top: 85px;
 }
 
 .section__work{
     display: grid;
-    grid-template-rows: 20% 20% 20% 20%;
+    grid-template-rows: 26% 26% 26%;
     grid-template-columns: 50% 50%;
 }
 
@@ -655,31 +814,38 @@ span{
     height: 144px;
 }
 
+/*woomen*/
 .section__woomen{
     max-width: 320px;
-    padding-top: 35px;
+    padding-top: 105px;
     display: block;
 }
 
 .section__text{
     max-width: 320px;
     height: 326px;
-    align-items: center;
+    position: relative;
+    top: -24px;
 }
 
 .text{
     font-size: 24px;
     line-height: 32px;
-    padding: 20px 20px;
-    text-align: center;
+    padding: 20px 25px 0;
 }
 
 .about__text{
     font-size: 12px;
     line-height: 14px;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
+.about__image{
+    width: 320px;
+    height: 212px;
+}
+
+/*download*/
 .section__download{
     max-width: 280px;
     padding: 0 20px;
@@ -704,6 +870,12 @@ span{
     width: 278.25px;
 }
 
+/*slider*/
+.section__slider{
+    padding-top: 0px;
+}
+
+/*about-footer*/
 .section__about-footer{
     margin: 0 auto;
     max-width: 320px;
@@ -730,6 +902,7 @@ span{
     padding-left: 96.41px;
 }
 
+/*footer*/
 .section__footer{
     max-width: 320px;
     margin: 0 auto;
