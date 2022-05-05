@@ -63,6 +63,7 @@
     background: #FF4343;
     padding: 26px 0;
     margin: 82px auto 0 auto;
+    cursor: pointer;
 }
 
 .header__button:hover {
